@@ -1,0 +1,8 @@
+@import url(./__item/photo__item.css);
+.photo {
+  width: 1184;
+  margin: 92px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-gap: 16px;
+}
