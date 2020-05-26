@@ -8,6 +8,7 @@
 
   width: 484px;
   
-  vertical-align: top;
+  /* vertical-align: top; */
   margin: 0;
+  margin-bottom: 24px;
 }

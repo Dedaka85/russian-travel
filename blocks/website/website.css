@@ -2,5 +2,7 @@
 @import url(./__url-heading/website__url-heading.css);
 .website {
   width: 456px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }

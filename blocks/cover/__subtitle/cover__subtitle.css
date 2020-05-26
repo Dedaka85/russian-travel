@@ -1,13 +1,13 @@
-.website__link {
+.cover__subtitle {
+  padding-bottom: 245px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
-  text-decoration-line: underline;
+  text-align: center;
   color: #FFFFFF;
-}
-
-.website__link:hover {
-  opacity: 0.8;
+  width: 360px;
+  margin: auto;
+  z-index: 1;
 }

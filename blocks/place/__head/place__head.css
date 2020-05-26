@@ -1,5 +1,4 @@
-.place_head {
-  
-  position: relative;
-  
+.place__head {
+  display: flex;
+  margin-bottom: 48px;
 }
