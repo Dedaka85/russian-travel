@@ -1,5 +1,7 @@
 .intro__text {
-  width: 690px;font-style: normal;
+  font-family: 'Inter';
+  width: 690px;
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.62;
@@ -7,3 +9,29 @@
   margin-top: 40px;
   margin-bottom: 32px;
 }
+/* 
+@media screen and (max-width: 1279px) {
+  .header {
+    width: calc(100% - 6.5em);
+    padding-bottom: 48px;
+   
+  }
+} */
+
+/* @media screen and (max-width: 1023px) {
+  .intro__text {
+   margin: 0 auto;
+   width: 720px;
+   text-align: left;
+  }
+} */
+
+/* @media screen and (max-width: 767px) {
+  .header {
+    
+    width: calc(100% - 2em);
+  }
+}
+ */
+
+

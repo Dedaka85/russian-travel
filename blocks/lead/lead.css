@@ -5,5 +5,31 @@
 .lead {
   margin: 0 auto;
   text-align: center;
-  width: 985px;
+  width: 984px;
 }
+
+
+@media screen and (max-width: 1279px) {
+  .lead  {
+    width: calc(100% - 6.5em);
+    
+   
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead  {
+    
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 767px) {
+  .lead  {
+    
+    width: calc(100% - 2em);
+  }
+} */
+
+
+

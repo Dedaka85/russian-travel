@@ -1,5 +1,12 @@
 .lead__image {
   margin: 0 auto;
-  width: 984px;
+  width: 100%;
   height: 615px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__image {
+    height: auto;
+    
+  }
 }
