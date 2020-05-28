@@ -1,11 +1,13 @@
 .place__head {
   display: flex;
   margin-bottom: 48px;
+  width: 100%;
+  
 }
 
 @media screen and (max-width: 1279px) {
   .place__head {
-    width: 100%;
+    
     
    
   }

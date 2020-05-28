@@ -33,9 +33,18 @@
     font-size: 14px;
     line-height: 1.14;
     width: calc(100% - 2rem);
-    padding-bottom: 80px;
+    padding-bottom: 105px;
   }
 }
+
+@media screen and (max-width: 519px) {
+  .cover__subtitle {
+    
+    padding-bottom: 85px;
+  }
+}
+
+
 
 @media screen and (max-width: 399px) {
   .cover__subtitle {

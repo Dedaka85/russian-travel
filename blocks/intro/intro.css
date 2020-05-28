@@ -3,38 +3,25 @@
 @import url(./__list/intro__list.css);
 @import url(./__fact/intro__fact.css);
 .intro {
-  margin:0;
-  width: 690px;
-  padding-left: 9.1875em;
-  /* width: calc(100% - 6rem); */
+  margin: 0 auto;
+  max-width: 984px;
+  margin-bottom: 92px;
+
 }
 @media screen and (max-width: 1279px) {
   .intro  {
-    width: calc(100% - 6.5rem);
+    width: calc(100% - 6rem);
     
    
   }
 }
 
-/* @media screen and (max-width: 1023px) {
-  .intro  {
-    
-    width: 100%;
-  }
-}  */
-
- /* @media screen and (max-width: 1279px) {
-  .intro {
-    width: calc(100% - 6.5rem);
-    
-   
-  }
-}
 
 @media screen and (max-width: 1023px) {
   .intro {
     
     width: calc(100% - 3rem);
+    margin-bottom: 88px;
   }
 }
 
@@ -42,7 +29,7 @@
   .intro {
     
     width: calc(100% - 2rem);
+    margin-bottom: 64px;
   }
 }
- */
-
+ 
