@@ -2,3 +2,17 @@
   
   display: flex;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__content {
+  width: 100%; 
+ 
+  }
+} 
+ @media screen and (max-width: 767px) {
+  .place__content {
+    
+   flex-direction: column;
+  
+  }
+} 

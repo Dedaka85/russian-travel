@@ -5,7 +5,38 @@
   font-size: 72px;
   line-height: 1.06;
   color: #FFFFFF;
-  width: 460px;
+  width: 100%;
+  max-width: 460px;
   margin: 0;
+}
 
+@media screen and (max-width: 1279px) {
+  .place__title {
+    width: calc(50% - 1.5rem);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    width: calc(50% - 1.25rem);
+    /* padding-right: 40px; */
+   
+    font-size: 42px;
+    line-height: 1.1;
+    /* identical to box height, or 109% */
+    ;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 16px;
+    font-size: 32px;
+    line-height: 1.09;
+    text-align: left;
+    /* identical to box height, or 109% */
+    ;
+  }
 }

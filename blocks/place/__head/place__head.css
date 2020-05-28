@@ -2,3 +2,27 @@
   display: flex;
   margin-bottom: 48px;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__head {
+    width: 100%;
+    
+   
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__head {
+    
+    /* width: calc(100% - 3rem); */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__head {
+  width: calc(100% - 2rem); 
+
+  margin-bottom: 32px; 
+  display: block;
+  }
+}
