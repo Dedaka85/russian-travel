@@ -2,6 +2,7 @@
   margin: auto;
   margin-bottom: 64px;
   color: #FFFFFF;
+  font-family: "Inter", Arial, sans-serif;
   width: 600px;
   font-size: 30px;
   line-height: 1.2;
@@ -9,18 +10,16 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .lead__subtitle  {
+  .lead__subtitle {
     margin-bottom: 56px;
-   
   }
 }
 
 @media screen and (max-width: 767px) {
-  .lead__subtitle  {
+  .lead__subtitle {
     margin-bottom: 40px;
     font-size: 16px;
     line-height: 1.25;
     width: 288px;
   }
 }
-

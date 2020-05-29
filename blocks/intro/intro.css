@@ -2,24 +2,21 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 @import url(./__fact/intro__fact.css);
+@import url(./__span/intro__span.css);
 .intro {
   margin: 0 auto;
   max-width: 984px;
   margin-bottom: 92px;
-
 }
+
 @media screen and (max-width: 1279px) {
-  .intro  {
+  .intro {
     width: calc(100% - 6rem);
-    
-   
   }
 }
 
-
 @media screen and (max-width: 1023px) {
   .intro {
-    
     width: calc(100% - 3rem);
     margin-bottom: 88px;
   }
@@ -27,9 +24,7 @@
 
 @media screen and (max-width: 767px) {
   .intro {
-    
-    width: calc(100% - 2rem);
+    width: calc(100% - 30px);
     margin-bottom: 64px;
   }
 }
- 

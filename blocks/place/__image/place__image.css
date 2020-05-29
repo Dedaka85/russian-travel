@@ -8,24 +8,21 @@
   .place__image {
     width: calc(50% - 1.5rem);
     height: 100%;
-
-   
   }
 }
 
- @media screen and (max-width: 1023px) {
-  .place__image  {
+@media screen and (max-width: 1023px) {
+  .place__image {
     width: calc(50% - 1.25rem);
   }
 }
 
 @media screen and (max-width: 767px) {
-  .place__image  {
-    
-
+  .place__image {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 8px;
-    }
-} 
+  }
+}
+
 /* @media screen and (max-width: 767px) and (min-width:460) { */

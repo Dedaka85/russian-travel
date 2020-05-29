@@ -1,7 +1,7 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
-
+@import url(./__lnk/footer__lnk.css);
 .footer {
   display: flex;
   justify-content: space-between;
@@ -11,13 +11,10 @@
   margin-bottom: 24px;
 }
 
-
 @media screen and (max-width: 1279px) {
   .footer {
     width: calc(100% - 6.5rem);
-   
     /* padding-bottom: 48px; */
-   
   }
 }
 
@@ -35,4 +32,3 @@
     margin-top: 64px;
   }
 }
-

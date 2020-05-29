@@ -11,3 +11,9 @@
     text-align: left;
   }
 } */
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    width: calc(100%);
+  }
+}

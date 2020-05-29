@@ -1,0 +1,12 @@
+.footer__lnk {
+  list-style-type: none;
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer__lnk {
+    
+    margin-bottom: 32px;
+    /* width: calc(100% - 2rem); */
+  }
+}

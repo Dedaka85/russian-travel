@@ -1,18 +1,15 @@
 .place__content {
-  
   display: flex;
 }
 
 @media screen and (max-width: 1279px) {
   .place__content {
-  width: 100%; 
- 
+    width: 100%;
   }
-} 
- @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
   .place__content {
-    
-   flex-direction: column;
-  
+    flex-direction: column;
   }
-} 
+}
